@@ -1,0 +1,13 @@
+version: 2.0
+
+test:
+  image: busybox
+
+  script:
+    - echo "simplest test"
+
+build:
+  image:
+    dockerfile_path: Dockerfile
+    build_dir: /
+    cache: true

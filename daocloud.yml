@@ -1,7 +1,7 @@
 version: 2.0
 
 test:
-  image: busybox
+  image: ubuntu:14.04
 
   script:
     - echo "simplest test"
